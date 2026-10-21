@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Victorian Local Government Services</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/h3-js@4.1.0/dist/h3-js.umd.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6">
+</script>
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="#top">
+<span class="brand-icon">✦</span> VICTORIAN <span>COUNCIL SERVICES</span>
+</a>
+<nav>
+<a href="#explore">Explore data</a>
+<a href="#about">Conclusion</a>
+</nav>
+<a class="header-pill" href="#explore">View dashboard <span>↗</span>
+</a>
+</header>
+<main id="top">
+<section class="hero">
+<div class="hero-waves">
+</div>
+<div class="hero-copy">
+<span class="eyebrow">
+<span class="eyebrow-dot">
+</span> VICTORIAN LOCAL GOVERNMENT · 2020–2025</span>
+<h1>Better Local Services<br/>for <em>Stronger Communities.</em>
+</h1>
+<p>Discover how local government services shape everyday life across Victoria, from public libraries and recreation spaces to waste management, council resources and community wellbeing.</p>
+<div class="search-wrap">
+<span class="search-icon">⌕</span>
+<input aria-label="Search visualisations" id="search" placeholder="Search charts, councils, or service topics…" type="search"/>
+<button aria-label="Search charts" id="searchButton">➜</button>
+</div>
+<p class="hero-micro">Real public datasets · 10 interactive visualisations · Victoria, Australia</p>
+</div>
+<div aria-hidden="true" class="hero-art"><div class="hero-photo"></div><div class="hero-photo-glow"></div></div>
+</section>
+<section aria-label="Service categories" class="quick-links">
+<a aria-label="View all 10 visualisations" class="view-all-service" data-jump="All" href="#explore">
+<span class="service-icon all-icon">▦</span>
+<b>View All<br/>Charts</b><small>10 visualisations</small>
+<span class="arrow">↗</span>
+</a>
+<a data-jump="Libraries" href="#explore">
+<span class="service-icon blue">▤</span>
+<b>Public<br/>Libraries</b><small>2 visualisations</small>
+<span class="arrow">↗</span>
+</a>
+<a data-jump="Waste" href="#explore">
+<span class="service-icon orange">♻</span>
+<b>Waste &amp;<br/>Recycling</b><small>2 visualisations</small>
+<span class="arrow">↗</span>
+</a>
+<a data-jump="Recreation" href="#explore">
+<span class="service-icon green">♧</span>
+<b>Parks &amp;<br/>Recreation</b><small>3 visualisations</small>
+<span class="arrow">↗</span>
+</a>
+<a data-jump="Community" href="#explore">
+<span class="service-icon pink">♡</span>
+<b>Community<br/>Wellbeing</b><small>2 visualisations</small>
+<span class="arrow">↗</span>
+</a>
+<a data-jump="Finance" href="#explore">
+<span class="service-icon purple">▥</span>
+<b>Council<br/>Finances</b><small>1 visualisation</small>
+<span class="arrow">↗</span>
+</a>
+</section>
+<section class="dashboard" id="explore">
+<div class="charts-grid">
+<article class="viz-card" data-topic="Recreation" id="visualisation-1">
+<div class="card-title">
+<span class="chart-number">1</span>
+<div>
+<h3>Recreation facilities across Victoria</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart1">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 1" class="story-insight"><h4>Where recreation facilities are concentrated</h4><p>Each circle represents a Victorian council, helping you compare recorded recreation facilities across the state.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Larger circles mean more facilities. The colour also shifts from pale peach to dark red as the count increases.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>Greater Geelong has the highest mapped council count (154), followed by Greater Bendigo (132) and Mornington Peninsula (123). The pattern is not limited to inner Melbourne; regional centres also stand out.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Hover over a circle for its council and facility count. Zoom in to separate circles that overlap.</p></section></div></aside>
+</div>
+</article>
+<article class="viz-card" data-topic="Recreation" id="visualisation-2">
+<div class="card-title">
+<span class="chart-number">2</span>
+<div>
+<h3>Recreation facility locations across Victoria</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart2">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 2" class="story-insight"><h4>A closer look at facility locations</h4><p>This map shows individual recreation facilities rather than council totals.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Each orange dot marks one recorded facility. The dots are the same size; clusters show where many locations sit close together.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>The underlying file contains 4,676 recreation-facility records. Dense clusters are visible around metropolitan Melbourne, while many regional sites are more widely spaced. These are recorded locations, not a measure of accessibility.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Zoom in to see individual locations and suburb boundaries, then hover for facility details.</p></section></div></aside>
+</div>
+</article>
+<article class="viz-card" data-topic="Recreation" id="visualisation-3">
+<div class="card-title">
+<span class="chart-number">3</span>
+<div>
+<h3>Recreation facility hotspots across Victoria</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart3">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 3" class="story-insight"><h4>Spotting recreation hotspots</h4><p>The hexbin map groups nearby facility locations so concentrations are easier to see.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Each hexagon covers a small area. Pale yellow means fewer recorded facilities; orange and dark red mean more.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>The dataset is grouped into 334 populated hexagonal cells; the busiest cell contains 407 recorded facilities. Hotspots show local concentrations rather than council-wide totals.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Hover for a cell’s facility count and sample names. Zoom in to see how hotspots relate to suburb boundaries.</p></section></div></aside>
+</div>
+<p class="story-bridge">After seeing where recreation facilities are concentrated, the next charts ask how other everyday council services are used and managed.</p></article>
+<article class="viz-card" data-topic="Libraries" id="visualisation-4">
+<div class="card-title">
+<span class="chart-number">4</span>
+<div>
+<h3>Library visits per resident</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart4">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 4" class="story-insight"><h4>Comparing library use across councils</h4><p>The heatmap shows how reported library visits per resident vary by council and financial year.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Each square represents one council in one year. Darker, warmer colours indicate more visits per resident.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>Among the 18 councils selected for this heatmap, Borough of Queenscliffe reports the highest 2024–25 library visits per resident (8.85), ahead of Hobsons Bay (6.31). This is a per-resident measure, not total visits.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Hover over a square for the exact value. The chart covers selected councils, not every council in Victoria.</p></section></div></aside>
+</div>
+</article>
+<article class="viz-card" data-topic="Waste" id="visualisation-5">
+<div class="card-title">
+<span class="chart-number">5</span>
+<div>
+<h3>Waste collection over time</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart5">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 5" class="story-insight"><h4>How garbage collection changes</h4><p>The area chart tracks reported garbage collection across financial years.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>The horizontal axis shows time, while the vertical axis shows the reported collection measure. The filled area makes the overall trend easier to follow.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>Across the available reporting years, the largest summed garbage collection total is 1,222,837 tonnes in 2019-2020. The latest year in this file, 2023–2024, totals 1,108,499 tonnes; changes may reflect reporting coverage as well as collection.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Follow the line from left to right and hover over the chart where available to check individual values.</p></section></div></aside>
+</div>
+<p class="story-bridge">Facility availability is only one part of local services. The next section compares service outcomes, costs and resources.</p></article>
+<article class="viz-card" data-topic="Recreation" id="visualisation-6">
+<div class="card-title">
+<span class="chart-number">6</span>
+<div>
+<h3>Council service profile</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart6">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 6" class="story-insight"><h4>Comparing different council services</h4><p>This radar chart brings several service indicators together for a selected council.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Each spoke represents a different measure, such as libraries, waste, aquatic recreation or consultation. Values are scaled separately from 0 to 100.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>The 2024–25 indicators measure different things: library visits, waste diversion, aquatic use and consultation satisfaction. The shape shows the selected council’s relative position on each measure. A point farther from the centre means a higher reported value compared with other councils for that indicator. It does not mean the council performs equally well across different services.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Choose a council from the dropdown to update the profile. The values below the chart show the original reported figures; the radar itself uses separately scaled scores from 0 to 100.</p></section></div></aside>
+</div>
+</article>
+<article class="viz-card" data-topic="Libraries" id="visualisation-7">
+<div class="card-title">
+<span class="chart-number">7</span>
+<div>
+<h3>Library service costs over time</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart7">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 7" class="story-insight"><h4>Following library service costs</h4><p>Follow the costs reported by six councils across five financial years, with each council shown in a different colour.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Each vertical year position acts as an axis. Follow a coloured line across the five years to see how one council’s library costs changed. Higher points mean higher reported costs per resident.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>Melbourne City reports the highest 2024–25 library service cost per resident (85.38 in the dataset), followed by Borough of Queenscliffe (84.03). The chart shows the six councils with the highest latest-year values, not all councils.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Hover over the dots to see exact costs, and follow the coloured lines to compare councils. The same cost scale is used throughout.</p></section></div></aside>
+</div>
+</article>
+<article class="viz-card" data-topic="Libraries" id="visualisation-8">
+<div class="card-title">
+<span class="chart-number">8</span>
+<div>
+<h3>Library membership across Victoria</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart8">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 8" class="story-insight"><h4>How does library use vary across Victoria?</h4><p>Explore how library membership and visits per resident differ across Victorian councils in 2024–25.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Each coloured area represents a Victorian council. Darker shades of red indicate higher values for the selected library measure, while grey areas represent councils without available data.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>Library use varies across Victoria, with some councils reporting higher membership or more visits per resident than others. However, higher membership does not always mean more library visits, highlighting differences in how communities use their local libraries.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Use the dropdown to switch between library membership and visits per resident. Hover over a council to view its reported values and compare different areas.</p></section></div></aside>
+</div>
+<p class="story-bridge">Library activity and costs tell different parts of the story. The next chart broadens the view to councils’ reported financial position.</p></article>
+<article class="viz-card" data-topic="Finance" id="visualisation-9">
+<div class="card-title">
+<span class="chart-number">9</span>
+<div>
+<h3>Council financial position</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart9">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 9" class="story-insight"><h4>Putting council finances in context</h4><p>These stacked bars show how the total reported amounts for council assets and liabilities change from one financial year to the next.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Each bar represents one financial year, and each colour represents an asset or liability category. Hover over a segment to see the total reported amount for that category and year.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>The chart adds together figures reported by councils for each year. Assets and liabilities are different financial measures, so the overall stack should not be read as a net balance or a measure of how well a council is performing.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Use the legend to identify the financial categories, then compare the size of each coloured segment across years. Reporting coverage may affect the totals.</p></section></div></aside>
+</div>
+<p class="story-bridge">Financial resources provide context, but residents’ experience matters too. The final chart turns to satisfaction with community engagement.</p></article>
+<article class="viz-card" data-topic="Community" id="visualisation-10">
+<div class="card-title">
+<span class="chart-number">10</span>
+<div>
+<h3>Community consultation satisfaction</h3>
+</div>
+</div>
+<div class="story-body">
+<div class="chart" id="chart10">
+<p class="loading">Loading visualisation…</p>
+</div>
+<aside aria-label="Explanation of visualisation 10" class="story-insight"><h4>Tracking community satisfaction</h4><p>The heatmap follows reported consultation and engagement satisfaction over financial years.</p><div class="story-explainer"><section class="story-explainer-section"><h5>READ THE CHART</h5><p>Each coloured tile represents a council’s satisfaction score for one year. The colour scale shows lower and higher reported scores.</p></section><section class="story-explainer-section"><h5>WHAT TO NOTICE</h5><p>Greater Dandenong records the highest reported 2024–25 consultation and engagement satisfaction score (77), followed by Wyndham (75). The heatmap shows a selected set of councils with at least three reported years.</p></section><section class="story-explainer-section"><h5>EXPLORE THE DATA</h5><p>Hover over tiles to check the council, year and exact satisfaction score.</p></section></div></aside>
+</div>
+</article>
+</div>
+<div class="no-results" hidden="">No matching visualisations. Try another search or select All charts.</div>
+</section>
+<section class="about" id="about">
+<div class="section-eyebrow">KEY FINDINGS &amp; CONCLUSION</div>
+<h2>What the data tells us</h2>
+<div class="about-summary">
+<section class="about-summary-item"><h3>Where services are located</h3><p>Recreation facilities are not evenly distributed across Victoria. Some councils have more recorded facilities than others, while the hotspot maps show where these facilities are concentrated. This highlights differences in the availability and distribution of local services.</p></section>
+<section class="about-summary-item"><h3>How services are used</h3><p>Library visits, waste collection and service indicators show how council services vary across locations and over time. Some councils report higher usage or different service outcomes, showing that each community has its own needs and patterns of service use.</p></section>
+<section class="about-summary-item"><h3>Looking at the bigger picture</h3><p>Financial figures, library costs and consultation satisfaction add another perspective to council performance. Higher spending or larger financial totals do not necessarily mean better services. These measures need to be considered together to understand the differences between councils.</p></section>
+</div>
+<div class="conclusion-sources"><h3>Data Sources</h3>
+<ul>
+<li><strong>Victorian Open Space</strong> – <a href="https://discover.data.vic.gov.au/dataset/open-space/resource/2d87a492-e1c0-4cb9-a96b-5ff5ad33650d" target="_blank" rel="noopener noreferrer">https://discover.data.vic.gov.au/dataset/open-space/resource/2d87a492-e1c0-4cb9-a96b-5ff5ad33650d</a></li>
+<li><strong>Local Government Performance Reporting</strong> – <a href="https://discover.data.vic.gov.au/dataset/local-government-performance-reporting/resource/362b34b3-9ff4-4c64-8d5b-377abf2e0d0e" target="_blank" rel="noopener noreferrer">https://discover.data.vic.gov.au/dataset/local-government-performance-reporting/resource/362b34b3-9ff4-4c64-8d5b-377abf2e0d0e</a></li>
+<li><strong>Victorian Local Government Waste Data Dashboard</strong> – <a href="https://www.epa.vic.gov.au/victorian-local-government-waste-data-dashboard" target="_blank" rel="noopener noreferrer">https://www.epa.vic.gov.au/victorian-local-government-waste-data-dashboard</a></li>
+<li><strong>City of Melbourne Liveability and Social Indicators</strong> – <a href="https://discover.data.vic.gov.au/dataset/city-of-melbourne-liveability-and-social-indicators" target="_blank" rel="noopener noreferrer">https://discover.data.vic.gov.au/dataset/city-of-melbourne-liveability-and-social-indicators</a></li>
+<li><strong>Parks and Reserves</strong> – <a href="https://discover.data.vic.gov.au/dataset/parks-reserves-ply-t1eam" target="_blank" rel="noopener noreferrer">https://discover.data.vic.gov.au/dataset/parks-reserves-ply-t1eam</a></li>
+</ul>
+<p class="conclusion-author">Simran Kaur Gahir - 34183655</p>
+</div>
+</section>
+</main>
+<footer>
+<span>Victorian Council Services</span>
+<a href="#top">Back to top ↑</a>
+</footer>
+<script src="charts/map_common.js"></script>
+<script src="charts/map1.js"></script>
+<script src="charts/map2.js"></script>
+<script src="charts/map3.js"></script>
+<script src="charts/common.js">
+</script>
+<script src="charts/chart4.js">
+</script>
+<script src="charts/chart5.js">
+</script>
+<script src="charts/chart6.js">
+</script>
+<script src="charts/chart7.js">
+</script>
+<script src="charts/chart8.js">
+</script>
+<script src="charts/chart9.js">
+</script>
+<script src="charts/chart10.js">
+</script>
+<script src="site.js">
+</script>
+</body>
+</html>

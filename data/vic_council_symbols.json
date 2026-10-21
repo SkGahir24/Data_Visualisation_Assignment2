@@ -1,0 +1,524 @@
+[
+  {
+    "Council": "Bayside",
+    "Count": 87,
+    "Longitude": 145.016024,
+    "Latitude": -37.937
+  },
+  {
+    "Council": "Latrobe",
+    "Count": 89,
+    "Longitude": 146.453833,
+    "Latitude": -38.2541
+  },
+  {
+    "Council": "Indigo",
+    "Count": 31,
+    "Longitude": 146.659429,
+    "Latitude": -36.20825
+  },
+  {
+    "Council": "Wodonga",
+    "Count": 18,
+    "Longitude": 146.911156,
+    "Latitude": -36.1443
+  },
+  {
+    "Council": "Mornington Peninsula",
+    "Count": 123,
+    "Longitude": 145.081228,
+    "Latitude": -38.33135
+  },
+  {
+    "Council": "Maribyrnong",
+    "Count": 45,
+    "Longitude": 144.875429,
+    "Latitude": -37.79285
+  },
+  {
+    "Council": "Yarra",
+    "Count": 54,
+    "Longitude": 144.986831,
+    "Latitude": -37.80545
+  },
+  {
+    "Council": "Melbourne",
+    "Count": 39,
+    "Longitude": 144.948545,
+    "Latitude": -37.81145
+  },
+  {
+    "Council": "Hobsons Bay",
+    "Count": 75,
+    "Longitude": 144.836757,
+    "Latitude": -37.85675
+  },
+  {
+    "Council": "Port Phillip",
+    "Count": 33,
+    "Longitude": 144.980841,
+    "Latitude": -37.85825
+  },
+  {
+    "Council": "Stonnington",
+    "Count": 56,
+    "Longitude": 145.041466,
+    "Latitude": -37.8632
+  },
+  {
+    "Council": "Kingston",
+    "Count": 92,
+    "Longitude": 145.111729,
+    "Latitude": -38.0068
+  },
+  {
+    "Council": "Frankston",
+    "Count": 77,
+    "Longitude": 145.176477,
+    "Latitude": -38.1237
+  },
+  {
+    "Council": "Moorabool",
+    "Count": 37,
+    "Longitude": 144.217265,
+    "Latitude": -37.63245
+  },
+  {
+    "Council": "Nillumbik",
+    "Count": 58,
+    "Longitude": 145.246903,
+    "Latitude": -37.60975
+  },
+  {
+    "Council": "Golden Plains",
+    "Count": 49,
+    "Longitude": 143.837823,
+    "Latitude": -37.8552
+  },
+  {
+    "Council": "Mount Alexander",
+    "Count": 56,
+    "Longitude": 144.274967,
+    "Latitude": -37.07635
+  },
+  {
+    "Council": "Greater Geelong",
+    "Count": 154,
+    "Longitude": 144.397584,
+    "Latitude": -38.04815
+  },
+  {
+    "Council": "Surf Coast",
+    "Count": 67,
+    "Longitude": 144.096711,
+    "Latitude": -38.33855
+  },
+  {
+    "Council": "Buloke",
+    "Count": 48,
+    "Longitude": 142.991327,
+    "Latitude": -35.86155
+  },
+  {
+    "Council": "Bass Coast",
+    "Count": 53,
+    "Longitude": 145.553262,
+    "Latitude": -38.4834
+  },
+  {
+    "Council": "Benalla",
+    "Count": 20,
+    "Longitude": 146.030969,
+    "Latitude": -36.5936
+  },
+  {
+    "Council": "Mount Hotham Alpine Resort (Uninc)",
+    "Count": 0,
+    "Longitude": 147.119653,
+    "Latitude": -36.9903
+  },
+  {
+    "Council": "Pyrenees",
+    "Count": 24,
+    "Longitude": 143.422864,
+    "Latitude": -37.34045
+  },
+  {
+    "Council": "Ararat",
+    "Count": 42,
+    "Longitude": 142.792732,
+    "Latitude": -37.49115
+  },
+  {
+    "Council": "Ballarat",
+    "Count": 98,
+    "Longitude": 143.769499,
+    "Latitude": -37.51295
+  },
+  {
+    "Council": "Baw Baw",
+    "Count": 84,
+    "Longitude": 146.106882,
+    "Latitude": -37.9699
+  },
+  {
+    "Council": "Central Goldfields",
+    "Count": 34,
+    "Longitude": 143.70469,
+    "Latitude": -36.9797
+  },
+  {
+    "Council": "Moyne",
+    "Count": 37,
+    "Longitude": 142.372471,
+    "Latitude": -38.1798
+  },
+  {
+    "Council": "Corangamite",
+    "Count": 54,
+    "Longitude": 143.12866,
+    "Latitude": -38.2204
+  },
+  {
+    "Council": "Queenscliffe",
+    "Count": 6,
+    "Longitude": 144.627604,
+    "Latitude": -38.26465
+  },
+  {
+    "Council": "French-Elizabeth-Sandstone Islands (Uninc)",
+    "Count": 0,
+    "Longitude": 145.386632,
+    "Latitude": -38.34605
+  },
+  {
+    "Council": "Mount Stirling Alpine Resort (Uninc)",
+    "Count": 0,
+    "Longitude": 146.489766,
+    "Latitude": -37.12785
+  },
+  {
+    "Council": "Falls Creek Alpine Resort (Uninc)",
+    "Count": 0,
+    "Longitude": 147.26214,
+    "Latitude": -36.8605
+  },
+  {
+    "Council": "Mount Buller Alpine Resort (Uninc)",
+    "Count": 2,
+    "Longitude": 146.450701,
+    "Latitude": -37.13705
+  },
+  {
+    "Council": "Greater Dandenong",
+    "Count": 55,
+    "Longitude": 145.191087,
+    "Latitude": -38.00215
+  },
+  {
+    "Council": "Mount Baw Baw Alpine Resort (Uninc)",
+    "Count": 1,
+    "Longitude": 146.253196,
+    "Latitude": -37.84505
+  },
+  {
+    "Council": "Glen Eira",
+    "Count": 52,
+    "Longitude": 145.039795,
+    "Latitude": -37.89345
+  },
+  {
+    "Council": "Mildura",
+    "Count": 53,
+    "Longitude": 141.802472,
+    "Latitude": -34.86835
+  },
+  {
+    "Council": "Warrnambool",
+    "Count": 45,
+    "Longitude": 142.501923,
+    "Latitude": -38.3789
+  },
+  {
+    "Council": "Gabo Island (Uninc)",
+    "Count": 0,
+    "Longitude": 149.910582,
+    "Latitude": -37.55765
+  },
+  {
+    "Council": "Manningham",
+    "Count": 49,
+    "Longitude": 145.184739,
+    "Latitude": -37.75715
+  },
+  {
+    "Council": "Boroondara",
+    "Count": 87,
+    "Longitude": 145.061639,
+    "Latitude": -37.82815
+  },
+  {
+    "Council": "Hindmarsh",
+    "Count": 26,
+    "Longitude": 141.712286,
+    "Latitude": -36.02625
+  },
+  {
+    "Council": "Lake Mountain Alpine Resort (Uninc)",
+    "Count": 1,
+    "Longitude": 145.875991,
+    "Latitude": -37.51195
+  },
+  {
+    "Council": "Greater Shepparton",
+    "Count": 80,
+    "Longitude": 145.378204,
+    "Latitude": -36.42655
+  },
+  {
+    "Council": "Wangaratta",
+    "Count": 53,
+    "Longitude": 146.430873,
+    "Latitude": -36.61825
+  },
+  {
+    "Council": "Macedon Ranges",
+    "Count": 58,
+    "Longitude": 144.635031,
+    "Latitude": -37.3331
+  },
+  {
+    "Council": "Whitehorse",
+    "Count": 65,
+    "Longitude": 145.157006,
+    "Latitude": -37.8264
+  },
+  {
+    "Council": "Moira",
+    "Count": 59,
+    "Longitude": 145.580931,
+    "Latitude": -36.05015
+  },
+  {
+    "Council": "Hepburn",
+    "Count": 34,
+    "Longitude": 144.00212,
+    "Latitude": -37.3149
+  },
+  {
+    "Council": "Towong",
+    "Count": 25,
+    "Longitude": 147.605026,
+    "Latitude": -36.36925
+  },
+  {
+    "Council": "Maroondah",
+    "Count": 57,
+    "Longitude": 145.261216,
+    "Latitude": -37.804
+  },
+  {
+    "Council": "West Wimmera",
+    "Count": 28,
+    "Longitude": 141.400106,
+    "Latitude": -36.59295
+  },
+  {
+    "Council": "Southern Grampians",
+    "Count": 46,
+    "Longitude": 141.957457,
+    "Latitude": -37.5292
+  },
+  {
+    "Council": "Mansfield",
+    "Count": 24,
+    "Longitude": 146.312711,
+    "Latitude": -37.24265
+  },
+  {
+    "Council": "Colac Otway",
+    "Count": 60,
+    "Longitude": 143.564409,
+    "Latitude": -38.40265
+  },
+  {
+    "Council": "Darebin",
+    "Count": 58,
+    "Longitude": 145.006439,
+    "Latitude": -37.74015
+  },
+  {
+    "Council": "Yarra Ranges",
+    "Count": 81,
+    "Longitude": 145.724469,
+    "Latitude": -37.7508
+  },
+  {
+    "Council": "Yarriambiack",
+    "Count": 40,
+    "Longitude": 142.388477,
+    "Latitude": -36.02625
+  },
+  {
+    "Council": "Northern Grampians",
+    "Count": 33,
+    "Longitude": 143.022212,
+    "Latitude": -36.85085
+  },
+  {
+    "Council": "Horsham",
+    "Count": 44,
+    "Longitude": 142.108575,
+    "Latitude": -36.8264
+  },
+  {
+    "Council": "Brimbank",
+    "Count": 121,
+    "Longitude": 144.804953,
+    "Latitude": -37.74365
+  },
+  {
+    "Council": "Greater Bendigo",
+    "Count": 132,
+    "Longitude": 144.289854,
+    "Latitude": -36.7228
+  },
+  {
+    "Council": "Glenelg",
+    "Count": 46,
+    "Longitude": 141.35058,
+    "Latitude": -37.89065
+  },
+  {
+    "Council": "Mitchell",
+    "Count": 46,
+    "Longitude": 144.976326,
+    "Latitude": -37.1725
+  },
+  {
+    "Council": "Whittlesea",
+    "Count": 63,
+    "Longitude": 145.061647,
+    "Latitude": -37.54975
+  },
+  {
+    "Council": "Hume",
+    "Count": 77,
+    "Longitude": 144.825933,
+    "Latitude": -37.6016
+  },
+  {
+    "Council": "Wellington",
+    "Count": 77,
+    "Longitude": 146.92506,
+    "Latitude": -37.9582
+  },
+  {
+    "Council": "South Gippsland",
+    "Count": 73,
+    "Longitude": 146.016977,
+    "Latitude": -38.69995
+  },
+  {
+    "Council": "Knox",
+    "Count": 98,
+    "Longitude": 145.258222,
+    "Latitude": -37.8934
+  },
+  {
+    "Council": "Monash",
+    "Count": 84,
+    "Longitude": 145.140593,
+    "Latitude": -37.89715
+  },
+  {
+    "Council": "Cardinia",
+    "Count": 69,
+    "Longitude": 145.566984,
+    "Latitude": -38.09565
+  },
+  {
+    "Council": "Casey",
+    "Count": 98,
+    "Longitude": 145.312693,
+    "Latitude": -38.0953
+  },
+  {
+    "Council": "Strathbogie",
+    "Count": 30,
+    "Longitude": 145.373824,
+    "Latitude": -36.7241
+  },
+  {
+    "Council": "Murrindindi",
+    "Count": 49,
+    "Longitude": 145.608313,
+    "Latitude": -37.28015
+  },
+  {
+    "Council": "Moreland",
+    "Count": 70,
+    "Longitude": 144.954774,
+    "Latitude": -37.7377
+  },
+  {
+    "Council": "Moonee Valley",
+    "Count": 63,
+    "Longitude": 144.888015,
+    "Latitude": -37.75125
+  },
+  {
+    "Council": "Alpine",
+    "Count": 35,
+    "Longitude": 146.98877,
+    "Latitude": -36.8332
+  },
+  {
+    "Council": "East Gippsland",
+    "Count": 83,
+    "Longitude": 148.502502,
+    "Latitude": -37.3405
+  },
+  {
+    "Council": "Campaspe",
+    "Count": 71,
+    "Longitude": 144.715965,
+    "Latitude": -36.306
+  },
+  {
+    "Council": "Loddon",
+    "Count": 47,
+    "Longitude": 143.893997,
+    "Latitude": -36.40695
+  },
+  {
+    "Council": "Swan Hill",
+    "Count": 37,
+    "Longitude": 143.021798,
+    "Latitude": -35.1014
+  },
+  {
+    "Council": "Gannawarra",
+    "Count": 48,
+    "Longitude": 143.803198,
+    "Latitude": -35.7334
+  },
+  {
+    "Council": "Banyule",
+    "Count": 74,
+    "Longitude": 145.086073,
+    "Latitude": -37.73515
+  },
+  {
+    "Council": "Melton",
+    "Count": 55,
+    "Longitude": 144.636393,
+    "Latitude": -37.6866
+  },
+  {
+    "Council": "Wyndham",
+    "Count": 63,
+    "Longitude": 144.628867,
+    "Latitude": -37.89245
+  }
+]
